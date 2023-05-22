@@ -1,0 +1,26 @@
+
+@media screen and (min-width: 768px) {
+    .nav-link {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+    .navbar-nav li::after {
+        content: '';
+        display: block;
+        margin: auto;
+        height: 1px;
+        width: 0;
+        background-color: transparent;
+        transition: width .5s ease, background-color .5s ease;
+    }
+
+    .navbar-nav li:hover::after {
+        width: 100%;
+        background-color: #D89112;
+    }
+
+    .nav-link:hover {
+        color: #D89112 !important;
+    }
+}

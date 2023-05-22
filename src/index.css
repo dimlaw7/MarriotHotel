@@ -1,13 +1,43 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: Poppins, Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+    color: #0C1825;
+    background-color: #f7f7f7;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    font-weight: 600;
+}
+
+.text-warning {
+    color: #D89112 !important;
+}
+
+.services img {
+    height: 53.3px;
+}
+
+.list-rooms {
+    list-style-type: none;
+}
+
+.pic-comp {
+    height: 250px;
+}
+
+.pic-comp img {
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.indicate {
+    background-color: #ffffff;
+    height: 10px;
+    width: 5%;
+}
+
+@media screen and (min-width: 700px) {
+    .pic-comp {
+        height: auto;
+    } 
 }
