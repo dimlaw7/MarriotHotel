@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/MarriotHotel/static/css/main.92c7dbd5.css",
-    "main.js": "/MarriotHotel/static/js/main.b65d8aff.js",
+    "main.js": "/MarriotHotel/static/js/main.cb58b3b0.js",
     "static/media/marriot-full-view.jpg": "/MarriotHotel/static/media/marriot-full-view.30c13fdcf550c3b0348f.jpg",
     "static/media/face.jpg": "/MarriotHotel/static/media/face.611348006dee8620841c.jpg",
     "static/media/comfy-room.jpg": "/MarriotHotel/static/media/comfy-room.902d735e762568c1e660.jpg",
-    "static/media/reception.avif": "/MarriotHotel/static/media/reception.6c3392b5a28e11874c66.avif",
-    "static/media/pool.avif": "/MarriotHotel/static/media/pool.b3c56999a3be921a8002.avif",
+    "static/media/reception.jpg": "/MarriotHotel/static/media/reception.6c3392b5a28e11874c66.jpg",
+    "static/media/pool.jpg": "/MarriotHotel/static/media/pool.b3c56999a3be921a8002.jpg",
     "static/media/hotel-building.jpg": "/MarriotHotel/static/media/hotel-building.0c3f054ca19fd94ce630.jpg",
     "static/media/spa.svg": "/MarriotHotel/static/media/spa.8cec7ca3b18f2ccefdf63646460482aa.svg",
     "static/media/yoga.svg": "/MarriotHotel/static/media/yoga.32548038225da03c8fa9e4ab8b45daec.svg",
@@ -17,10 +17,10 @@
     "static/media/conference.svg": "/MarriotHotel/static/media/conference.6974562e997ea6f7767decaabbe326a0.svg",
     "static/media/gym.svg": "/MarriotHotel/static/media/gym.3f413cd903a65b9b51055a11833fdc17.svg",
     "main.92c7dbd5.css.map": "/MarriotHotel/static/css/main.92c7dbd5.css.map",
-    "main.b65d8aff.js.map": "/MarriotHotel/static/js/main.b65d8aff.js.map"
+    "main.cb58b3b0.js.map": "/MarriotHotel/static/js/main.cb58b3b0.js.map"
   },
   "entrypoints": [
     "static/css/main.92c7dbd5.css",
-    "static/js/main.b65d8aff.js"
+    "static/js/main.cb58b3b0.js"
   ]
 }
