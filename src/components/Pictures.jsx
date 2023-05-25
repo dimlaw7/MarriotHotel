@@ -1,6 +1,6 @@
 import React from 'react';
-import pool from '../assets/pictures/pool.avif';
-import reception from '../assets/pictures/reception.avif';
+import pool from '../assets/pictures/pool.jpg';
+import reception from '../assets/pictures/reception.jpg';
 
 const Pictures = () => {
     const images = [
