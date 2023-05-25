@@ -36,6 +36,11 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
     width: 5%;
 }
 
+ul.lee li{
+    font-size: 14px;
+    font-weight: 500;
+}
+
 @media screen and (min-width: 700px) {
     .pic-comp {
         height: auto;

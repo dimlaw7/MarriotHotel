@@ -5,6 +5,7 @@ import { Services } from './components/Services';
 import Rooms from './components/Rooms';
 import Pictures from './components/Pictures';
 import Reviews from './components/Reviews';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Rooms />
       <Pictures />
       <Reviews />
+      <Footer />
     </>
   );
 }
