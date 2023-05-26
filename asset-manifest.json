@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MarriotHotel/static/css/main.92c7dbd5.css",
-    "main.js": "/MarriotHotel/static/js/main.cb58b3b0.js",
+    "main.js": "/MarriotHotel/static/js/main.9a1ca337.js",
     "static/media/marriot-full-view.jpg": "/MarriotHotel/static/media/marriot-full-view.30c13fdcf550c3b0348f.jpg",
     "static/media/face.jpg": "/MarriotHotel/static/media/face.611348006dee8620841c.jpg",
     "static/media/comfy-room.jpg": "/MarriotHotel/static/media/comfy-room.902d735e762568c1e660.jpg",
@@ -9,18 +9,18 @@
     "static/media/pool.jpg": "/MarriotHotel/static/media/pool.b3c56999a3be921a8002.jpg",
     "static/media/hotel-building.jpg": "/MarriotHotel/static/media/hotel-building.0c3f054ca19fd94ce630.jpg",
     "static/media/spa.svg": "/MarriotHotel/static/media/spa.8cec7ca3b18f2ccefdf63646460482aa.svg",
-    "static/media/yoga.svg": "/MarriotHotel/static/media/yoga.32548038225da03c8fa9e4ab8b45daec.svg",
-    "static/media/restaurant.svg": "/MarriotHotel/static/media/restaurant.36b696a652d1a2ed1ec756886a85b104.svg",
+    "static/media/yoga.svg": "/MarriotHotel/static/media/yoga.ea62cb2f8dbe1131ccf795df8b026e25.svg",
+    "static/media/restaurant.svg": "/MarriotHotel/static/media/restaurant.725f9e111ffae4b7a26e197ea1a2ad79.svg",
     "static/media/guests.svg": "/MarriotHotel/static/media/guests.174dcdbed08ca61a51dc88b6547c8af2.svg",
     "index.html": "/MarriotHotel/index.html",
     "static/media/pool.svg": "/MarriotHotel/static/media/pool.057bf1f1acc9ac8a31f8329f40073feb.svg",
     "static/media/conference.svg": "/MarriotHotel/static/media/conference.6974562e997ea6f7767decaabbe326a0.svg",
     "static/media/gym.svg": "/MarriotHotel/static/media/gym.3f413cd903a65b9b51055a11833fdc17.svg",
     "main.92c7dbd5.css.map": "/MarriotHotel/static/css/main.92c7dbd5.css.map",
-    "main.cb58b3b0.js.map": "/MarriotHotel/static/js/main.cb58b3b0.js.map"
+    "main.9a1ca337.js.map": "/MarriotHotel/static/js/main.9a1ca337.js.map"
   },
   "entrypoints": [
     "static/css/main.92c7dbd5.css",
-    "static/js/main.cb58b3b0.js"
+    "static/js/main.9a1ca337.js"
   ]
 }
