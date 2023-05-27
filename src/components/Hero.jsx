@@ -35,9 +35,9 @@ const Hero = () =>{
         <div className='overlay' >
             <Navbar />
             <div className='position-absolute top-50 start-50 translate-middle w-75 text-white mt-5 mt-lg-0'>
-              <h1 className='hero-h1'>STAY TWICE AND EARN A FREE NIGHT!</h1>
-              <small>Marriott hotel operating in our capital can be called on of the best places that meets all the wishes of guests with refined state</small>
-              <button type='button' className='d-block d-md-none btn btn-warning text-white mx-auto mt-5'>Book Now</button>
+              <h1 className='hero-h1 animate__animated animate__bounceInDown'>STAY TWICE AND EARN A FREE NIGHT!</h1>
+              <p className='small animate__animated animate__bounceInUp'>Marriott hotel operating in our capital can be called on of the best places that meets all the wishes of guests with refined state</p>
+              <button type='button' className='d-block d-md-none btn btn-warning text-white mx-auto mt-5 animate__animated animate__bounceInUp'>Book Now</button>
               <form className='d-none d-md-block container marriot-booking rounded mt-5'>
                 <div className='d-inline-block px-3 my-3'>
                   <Select options={rooms} onChange='' styles={customStyles} placeholder='Rooms / Suite'/>
