@@ -9,23 +9,21 @@ const Reviews = () => {
     const intervalRef = useRef(null);
     const animateScroll = (direction) => {
         const widthToStop = (87.9/100 * carouselElem.current.offsetWidth).toFixed();
-        let maxWidth = carouselElem.current.offsetWidth;
+        //let maxWidth = carouselElem.current.offsetWidth;
         clearInterval(intervalRef.current);
         intervalRef.current = setInterval(() => {
             scrollCarousel(direction);
         }, 1);
         const scrollCarousel = (direction) => {
-            if (revieElem.current.scrollLeft == widthToStop) {
+            if (revieElem.current.scrollLeft === (+widthToStop) && direction === 'right') {
                 clearInterval(intervalRef.current);
             }
-            else {
-                if (direction === 'right') {
-                    revieElem.current.scrollLeft += 5;
-                }
-                else {
-                    revieElem.current.scrollLeft -= 5;
-                }
-            }    
+            if (direction === 'right') {
+                revieElem.current.scrollLeft += 5;
+            }
+            if (direction === 'left') {
+                revieElem.current.scrollLeft -= 5;
+            }
         }
     }
         

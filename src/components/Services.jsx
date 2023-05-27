@@ -25,7 +25,7 @@ export const Services = () => {
                     <h6 className='text-warning py-2'>Yoga</h6>
                 </div>
                 <div className='col-4 col-lg-2'>
-                    <img src={spa} alt='icon' className='px-4 py-2' style={{height: '53.3px'}} />
+                    <img src={spa} alt='icon' className='px-4 py-2' style={{height: '45px'}} />
                     <h6 className='text-warning py-2'>Spa</h6>
                 </div>
                 <div className='col-4 col-lg-2'>

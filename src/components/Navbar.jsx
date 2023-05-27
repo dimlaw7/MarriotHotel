@@ -15,8 +15,8 @@ const Navbar = () => {
                     <small>eng</small>
                 </div>
                 <ul className='dropdown-menu' aria-labelledby='navbarDropdown'>
-                    <li><a className='dropdown-item' href='#'>spa</a></li>
-                    <li><a className='dropdown-item' href='#'>fre</a></li>
+                    <li><a className='dropdown-item' href='/'>spa</a></li>
+                    <li><a className='dropdown-item' href='/'>fre</a></li>
                 </ul>
             </div>
             {/* Nav dropdpwn toggle */}
@@ -51,8 +51,8 @@ const Navbar = () => {
                 <small>Eng</small>
             </div>
             <ul className='dropdown-menu' aria-labelledby='navbarDropdown'>
-                <li><a className='dropdown-item' href='#'>Spa</a></li>
-                <li><a className='dropdown-item' href='#'>Fre</a></li>
+                <li><a className='dropdown-item' href='/'>Spa</a></li>
+                <li><a className='dropdown-item' href='/'>Fre</a></li>
             </ul>
             <a className='nav-link text-white text-decoration-none' href='/'>+234 901 549 1581</a>
         </div>
