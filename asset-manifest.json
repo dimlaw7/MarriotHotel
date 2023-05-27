@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MarriotHotel/static/css/main.5b5c8e90.css",
-    "main.js": "/MarriotHotel/static/js/main.5232e3ad.js",
+    "main.js": "/MarriotHotel/static/js/main.f041af2b.js",
     "static/media/marriot-full-view.jpg": "/MarriotHotel/static/media/marriot-full-view.f28ea2d7b5f3675f4160.jpg",
     "static/media/pool.jpg": "/MarriotHotel/static/media/pool.9f8e3f5d4a456d53c3d6.jpg",
     "static/media/budget-suite.jpg": "/MarriotHotel/static/media/budget-suite.cf53faccdfbb61bbebda.jpg",
@@ -23,10 +23,10 @@
     "static/media/conference.svg": "/MarriotHotel/static/media/conference.6974562e997ea6f7767decaabbe326a0.svg",
     "static/media/gym.svg": "/MarriotHotel/static/media/gym.3f413cd903a65b9b51055a11833fdc17.svg",
     "main.5b5c8e90.css.map": "/MarriotHotel/static/css/main.5b5c8e90.css.map",
-    "main.5232e3ad.js.map": "/MarriotHotel/static/js/main.5232e3ad.js.map"
+    "main.f041af2b.js.map": "/MarriotHotel/static/js/main.f041af2b.js.map"
   },
   "entrypoints": [
     "static/css/main.5b5c8e90.css",
-    "static/js/main.5232e3ad.js"
+    "static/js/main.f041af2b.js"
   ]
 }
