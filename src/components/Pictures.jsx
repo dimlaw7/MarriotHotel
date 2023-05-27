@@ -1,6 +1,7 @@
 import React from 'react';
 import pool from '../assets/pictures/pool.jpg';
 import reception from '../assets/pictures/reception.jpg';
+import food from '../assets/pictures/food.jpg';
 
 const Pictures = () => {
     const images = [
@@ -21,7 +22,7 @@ const Pictures = () => {
         },
         {
             id: 4,
-            src: pool,
+            src: food,
             css: 'col-12 col-lg-9',
         },
     ]

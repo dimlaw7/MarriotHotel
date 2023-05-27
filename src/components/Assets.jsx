@@ -9,7 +9,7 @@ const Assets = ({display, border, col}) => {
                     <div className={col}>
                         <h1 className='text-warning'>553+</h1>
                     </div>
-                    <div className={col + ' d-lg-none'}>
+                    <div className={col + ' d-lg-none text-end'}>
                         <h6>Standard Rooms</h6>
                     </div>
                 </div>
@@ -19,8 +19,8 @@ const Assets = ({display, border, col}) => {
                         <div className={col}>
                             <h1 className='text-warning'>120+</h1>
                         </div>
-                        <div className={col + ' d-lg-none'}>
-                            <h6>Comfy Suites</h6>
+                        <div className={col + ' d-lg-none text-end'}>
+                            <h6>Comfortable Suites</h6>
                         </div>
                     </div>
                 </div>
@@ -29,8 +29,8 @@ const Assets = ({display, border, col}) => {
                         <div className={col}>
                             <h1 className='text-warning'>60+</h1>
                         </div>
-                        <div className={col + ' d-lg-none'}>
-                            <h6>Gym tools</h6>
+                        <div className={col + ' d-lg-none text-end'}>
+                            <h6>Classy Gym tools</h6>
                         </div>
                     </div>
                 </div>

@@ -21,8 +21,8 @@ const Rooms = () => {
                 return (
                     <ul key={index} className='list-rooms'>
                         <li className='col position-relative' style={bStyle}>
-                            <div className='position-absolute ps-2' style={{bottom: '5%'}}>
-                                <h5 className='text-white py-2'>Comfort Rooms</h5>
+                            <div className='position-absolute ps-2' style={{bottom: '1%'}}>
+                                <h5 className='text-white py-1'>Comfort Rooms</h5>
                                 <div className='d-flex align-items-baseline'>
                                     <h5 className='mr-2 text-white'>$100</h5>
                                     <img src={guestIcon} className='mx-2' style={{height: '20px'}} alt='rooms' />
