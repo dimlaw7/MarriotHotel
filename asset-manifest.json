@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/MarriotHotel/static/css/main.ea84fd86.css",
-    "main.js": "/MarriotHotel/static/js/main.811466eb.js",
+    "main.css": "/MarriotHotel/static/css/main.e2adbb7c.css",
+    "main.js": "/MarriotHotel/static/js/main.91f40910.js",
+    "static/media/marriot-full-view.jpg": "/MarriotHotel/static/media/marriot-full-view.f28ea2d7b5f3675f4160.jpg",
+    "static/media/pool.jpg": "/MarriotHotel/static/media/pool.9f8e3f5d4a456d53c3d6.jpg",
+    "static/media/food.jpg": "/MarriotHotel/static/media/food.1b134c6811df875ce2ff.jpg",
     "static/media/reception.jpg": "/MarriotHotel/static/media/reception.844ee4d40818cea24580.jpg",
-    "static/media/marriot-full-view.jpg": "/MarriotHotel/static/media/marriot-full-view.30c13fdcf550c3b0348f.jpg",
     "static/media/face.jpg": "/MarriotHotel/static/media/face.611348006dee8620841c.jpg",
     "static/media/comfy-room.jpg": "/MarriotHotel/static/media/comfy-room.902d735e762568c1e660.jpg",
-    "static/media/pool.jpg": "/MarriotHotel/static/media/pool.b3c56999a3be921a8002.jpg",
     "static/media/hotel-building.jpg": "/MarriotHotel/static/media/hotel-building.0c3f054ca19fd94ce630.jpg",
     "static/media/spa.svg": "/MarriotHotel/static/media/spa.8cec7ca3b18f2ccefdf63646460482aa.svg",
     "static/media/yoga.svg": "/MarriotHotel/static/media/yoga.ea62cb2f8dbe1131ccf795df8b026e25.svg",
@@ -16,11 +17,11 @@
     "static/media/pool.svg": "/MarriotHotel/static/media/pool.057bf1f1acc9ac8a31f8329f40073feb.svg",
     "static/media/conference.svg": "/MarriotHotel/static/media/conference.6974562e997ea6f7767decaabbe326a0.svg",
     "static/media/gym.svg": "/MarriotHotel/static/media/gym.3f413cd903a65b9b51055a11833fdc17.svg",
-    "main.ea84fd86.css.map": "/MarriotHotel/static/css/main.ea84fd86.css.map",
-    "main.811466eb.js.map": "/MarriotHotel/static/js/main.811466eb.js.map"
+    "main.e2adbb7c.css.map": "/MarriotHotel/static/css/main.e2adbb7c.css.map",
+    "main.91f40910.js.map": "/MarriotHotel/static/js/main.91f40910.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea84fd86.css",
-    "static/js/main.811466eb.js"
+    "static/css/main.e2adbb7c.css",
+    "static/js/main.91f40910.js"
   ]
 }
