@@ -22,9 +22,9 @@ const Rooms = () => {
                     <ul key={index} className='list-rooms'>
                         <li className='col position-relative' style={bStyle}>
                             <div className='position-absolute ps-2' style={{bottom: '1%'}}>
-                                <h5 className='text-white py-1'>Comfort Rooms</h5>
+                                <h6 className='text-white py-1'>Comfort Rooms</h6>
                                 <div className='d-flex align-items-baseline'>
-                                    <h5 className='mr-2 text-white'>$100</h5>
+                                    <h6 className='mr-2 text-white'>$100</h6>
                                     <img src={guestIcon} className='mx-2' style={{height: '20px'}} alt='rooms' />
                                     <p className='mx-2 text-white'>night</p>
                                 </div>
