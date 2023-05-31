@@ -21,13 +21,15 @@ const Navbar = () => {
             </div>
             {/* Nav dropdpwn toggle */}
             <div className='nav-item'>
-                <button className='navbar-toggler border-0' type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
-                    <i className='bi bi-list h2' style={{color: 'white'}}></i>
-                </button>
+                <div className='navbar-toggler border-0 hamburger' type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
             </div>
         </div>
         <div className='collapse navbar-collapse flex-grow-0' id='navbarSupportedContent'>
-            <ul className='navbar-nav'>
+            <ul className='navbar-nav navbar-custom'>
                 <li>
                     <a className='nav-link text-white active' href='/'>Home</a>
                 </li>

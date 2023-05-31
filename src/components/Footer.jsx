@@ -31,10 +31,10 @@ const Footer = () => {
         </div>
         <div className="fs-3 footer-links">
             <div className="row">
-                <a href='/' className='col-2'><i class="bi bi-facebook"></i></a>
-                <a href='/' className='col-2'><i class="bi bi-twitter"></i></a>
-                <a href='/' className='col-2'><i class="bi bi-youtube"></i></a>
-                <a href='/' className='col-2'><i class="bi bi-geo-alt-fill"></i></a>
+                <a href='/' className='col-2'><i className="bi bi-facebook"></i></a>
+                <a href='/' className='col-2'><i className="bi bi-twitter"></i></a>
+                <a href='/' className='col-2'><i className="bi bi-youtube"></i></a>
+                <a href='/' className='col-2'><i className="bi bi-geo-alt-fill"></i></a>
             </div>
         </div>
     </footer>

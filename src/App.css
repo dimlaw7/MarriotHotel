@@ -1,13 +1,14 @@
 .hero {
-  background-image: url(./assets/hotel-building.jpg);
+  background-image: url(./assets/pictures/reception.jpg);
   background-repeat: no-repeat;
-  background-position: 72% 0%;
-  height: 476px;
+  background-size: cover;
+    background-position: 50% 76%;
+  height: 100vh;
 }
 
 .overlay {
   height: inherit;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.25) 20%,rgba(0, 0, 0) );;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.4));
 }
 
 .hero-h1 {
@@ -23,6 +24,28 @@
   border: 1px solid #585858;
 }
 
+p.small {
+  font-size: 1em;
+}
+
+.hamburger .line {
+  display: block;
+  width: 28px;
+  height: 3px;
+  background-color: #fff;
+  margin: 6px auto;
+}
+
+ul.navbar-custom {
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-left: -16px;
+  margin-right: -16px;
+}
+
+ul.navbar-custom li{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
 @media screen and (min-width: 700px) {
   .hero {
     background-size: cover;
@@ -30,5 +53,14 @@
   }
   .hero-h1 {
     font-size: 56px;
+  }
+  ul.navbar-custom {
+    background-color: transparent;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  ul.navbar-custom li{
+    border: none;
   }
 }
