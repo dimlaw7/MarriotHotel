@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/MarriotHotel/static/css/main.5b5c8e90.css",
-    "main.js": "/MarriotHotel/static/js/main.f041af2b.js",
+    "main.css": "/MarriotHotel/static/css/main.622dea3e.css",
+    "main.js": "/MarriotHotel/static/js/main.36185a4c.js",
     "static/media/marriot-full-view.jpg": "/MarriotHotel/static/media/marriot-full-view.f28ea2d7b5f3675f4160.jpg",
     "static/media/pool.jpg": "/MarriotHotel/static/media/pool.9f8e3f5d4a456d53c3d6.jpg",
     "static/media/budget-suite.jpg": "/MarriotHotel/static/media/budget-suite.cf53faccdfbb61bbebda.jpg",
     "static/media/food.jpg": "/MarriotHotel/static/media/food.1b134c6811df875ce2ff.jpg",
-    "static/media/reception.jpg": "/MarriotHotel/static/media/reception.844ee4d40818cea24580.jpg",
     "static/media/face.jpg": "/MarriotHotel/static/media/face.611348006dee8620841c.jpg",
     "static/media/comfy-room.jpg": "/MarriotHotel/static/media/comfy-room.902d735e762568c1e660.jpg",
+    "static/media/reception.jpg": "/MarriotHotel/static/media/reception.ebeca92d1c88083e63db.jpg",
     "static/media/presidential-bedroom-3.jpg": "/MarriotHotel/static/media/presidential-bedroom-3.67287ed933d7796d93c3.jpg",
     "static/media/presidential-bedroom.jpg": "/MarriotHotel/static/media/presidential-bedroom.a3abb6fc2468d671e354.jpg",
-    "static/media/hotel-building.jpg": "/MarriotHotel/static/media/hotel-building.0c3f054ca19fd94ce630.jpg",
     "static/media/executive-room.jpg": "/MarriotHotel/static/media/executive-room.8496f8001cc978af15b9.jpg",
     "static/media/stand-suite.jpg": "/MarriotHotel/static/media/stand-suite.2e50bb507243226094de.jpg",
     "static/media/spa.svg": "/MarriotHotel/static/media/spa.8cec7ca3b18f2ccefdf63646460482aa.svg",
@@ -22,11 +21,11 @@
     "static/media/pool.svg": "/MarriotHotel/static/media/pool.057bf1f1acc9ac8a31f8329f40073feb.svg",
     "static/media/conference.svg": "/MarriotHotel/static/media/conference.6974562e997ea6f7767decaabbe326a0.svg",
     "static/media/gym.svg": "/MarriotHotel/static/media/gym.3f413cd903a65b9b51055a11833fdc17.svg",
-    "main.5b5c8e90.css.map": "/MarriotHotel/static/css/main.5b5c8e90.css.map",
-    "main.f041af2b.js.map": "/MarriotHotel/static/js/main.f041af2b.js.map"
+    "main.622dea3e.css.map": "/MarriotHotel/static/css/main.622dea3e.css.map",
+    "main.36185a4c.js.map": "/MarriotHotel/static/js/main.36185a4c.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b5c8e90.css",
-    "static/js/main.f041af2b.js"
+    "static/css/main.622dea3e.css",
+    "static/js/main.36185a4c.js"
   ]
 }
