@@ -4,7 +4,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav className='navbar navbar-expand-lg justify-content-between text-white mx-3 mx-lg-5 pt-2'>
+    <nav className='navbar navbar-expand-lg justify-content-between text-white mx-3 mx-lg-5 pt-2 small'>
         <a className='navbar-brand' href='/'>
             <img src={logo} alt='logo' width='40px'/>
         </a>

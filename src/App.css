@@ -15,6 +15,10 @@
   font-size: 36px;
 }
 
+.hero-text {
+  top: 40%;
+}
+
 .btn-warning {
   background-color: #D89112;;
 }
@@ -51,6 +55,9 @@ ul.navbar-custom li{
     background-size: cover;
     height: 100vh;
   }
+  .hero-text {
+    top: 55%;
+  }
   .hero-h1 {
     font-size: 56px;
   }
@@ -62,5 +69,8 @@ ul.navbar-custom li{
   
   ul.navbar-custom li{
     border: none;
+  }
+  .navbar a {
+    font-size: 1em;
   }
 }

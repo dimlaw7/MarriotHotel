@@ -34,21 +34,21 @@ const Hero = () =>{
     <section className='position-relative hero text-center'>
         <div className='overlay' >
             <Navbar />
-            <div className='position-absolute start-50 translate-middle w-75 text-white mt-5 mt-lg-0' style={{top: '40%'}}>
+            <div className='position-absolute start-50 translate-middle w-75 text-white mt-5 mt-lg-0 hero-text'>
               <h1 className='hero-h1 animate__animated animate__bounceInDown'>STAY TWICE AND EARN A FREE NIGHT!</h1>
               <p className='small animate__animated animate__bounceInUp'>Marriott hotel operating in our capital can be called on of the best places that meets all the wishes of guests with refined state</p>
-              <button type='button' className='d-block d-md-none btn btn-warning text-white mx-auto mt-5 animate__animated animate__bounceInUp'>Book Your Stay</button>
-              <form className='d-none d-md-block container marriot-booking rounded mt-5'>
-                <div className='d-inline-block px-3 my-3'>
+              <button type='button' className='d-block d-md-none btn btn-warning btn-sm text-white mx-auto mt-5 animate__animated animate__bounceInUp'>Book Your Stay</button>
+              <form className='d-none d-md-block container marriot-booking rounded mt-5 py-2'>
+                <div className='d-inline-block px-3'>
                   <Select options={rooms} onChange='' styles={customStyles} placeholder='Rooms / Suite'/>
                 </div>
-                <label htmlFor='date' className='d-inline-block px-3 my-3 border-start'>
+                <label htmlFor='date' className='d-inline-block px-3 border-start'>
                   <input type='date' name='date' id='date' />
                 </label>
-                <div className='d-inline-block px-3 my-3 border-start'>
+                <div className='d-inline-block px-3 border-start'>
                   <Select options={guests} onChange='' styles={customStyles} placeholder='Guests'/>
                 </div>
-                <button type='button' className='btn btn-warning text-white'>Search</button>
+                <button type='button' className='btn btn-warning btn-sm text-white'>Search</button>
               </form>
             </div>
         </div>
