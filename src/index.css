@@ -8,6 +8,26 @@ p {
     font-size: 0.9rem;
 }
 
+input[type="date"] {
+    color: #808080;
+    background: transparent;
+    border: none;
+    outline: none;
+    position: relative;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    background: transparent;
+}
+
 .text-warning {
     color: #D89112 !important;
 }
