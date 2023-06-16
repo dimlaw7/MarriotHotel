@@ -1,16 +1,26 @@
 import React from 'react'
 import logo from '../assets/logo.jpg';
 import "./Navbar.css";
+import { useRef } from 'react';
 
 const Navbar = () => {
+    const NavbarRef = useRef();
+    document.body.onscroll = function () {
+        if (window.scrollY > 50) {
+            NavbarRef.current.classList.add('nav-toggle');
+        }
+        else {
+            NavbarRef.current.classList.remove('nav-toggle');
+        }
+    }
   return (
-    <nav className='navbar navbar-expand-lg justify-content-between text-white mx-3 mx-lg-5 pt-2 small'>
+    <nav className='navbar navbar-expand-lg justify-content-between text-white px-3 mx-lg-5 pt-2 small' ref={NavbarRef}>
         <a className='navbar-brand' href='/'>
             <img src={logo} alt='logo' width='40px'/>
         </a>
         <div className='d-flex d-lg-none'>
             {/* Language dropdown */}
-            <div className='nav-item dropdown'>
+            <div className='nav-item dropdown me-3'>
                 <div className='nav-link text-white dropdown-toggle me-2' id='navbarDropdown' role='button' data-bs-toggle='dropdown' aria-expanded='false'>
                     <small>eng</small>
                 </div>

@@ -34,10 +34,11 @@ p.small {
 
 .hamburger .line {
   display: block;
-  width: 28px;
+  width: 26px;
   height: 3px;
   background-color: #fff;
   margin: 6px auto;
+  border-radius: 10px;
 }
 
 ul.navbar-custom {
@@ -48,6 +49,15 @@ ul.navbar-custom {
 
 ul.navbar-custom li{
   border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.nav-toggle {
+  background: rgba(15,23,28,0.85);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 999;
 }
 
 @media screen and (min-width: 700px) {
