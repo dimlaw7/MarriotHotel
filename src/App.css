@@ -60,6 +60,17 @@ ul.navbar-custom li{
   z-index: 999;
 }
 
+.bkn {
+  font-weight: 500;
+  font-size: 1em;
+  padding: 0.5em;
+}
+
+.ic-jump {
+  top: 85% !important;
+  color: white !important;
+}
+
 @media screen and (min-width: 700px) {
   .hero {
     background-size: cover;
