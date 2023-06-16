@@ -31,7 +31,7 @@ const Navbar = () => {
             </div>
             {/* Nav dropdpwn toggle */}
             <div className='nav-item'>
-                <div className='navbar-toggler border-0 hamburger' type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
+                <div className='navbar-toggler border-0 hamburger' type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation' style={{paddingLeft: 0, paddingRight: 0}}>
                     <span class="line"></span>
                     <span class="line"></span>
                     <span class="line"></span>

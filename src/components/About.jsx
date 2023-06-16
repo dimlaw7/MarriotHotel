@@ -15,7 +15,7 @@ const About = () => {
                 <Assets display='d-none d-lg-block' border='col' col='col-4' />
             </div>
             <div className='col-12 col-lg-4 position-relative'>
-                <img src={mfv} className='img-fluid' alt='Marriot Full View' style={{objectFit: 'cover', height: '100%'}}/>
+                <img src={mfv} className='img-fluid' alt='Marriot Full View' style={{objectFit: 'cover'}}/>
                 <i className="bi bi-play-circle position-absolute top-50 start-50 text-white h2 translate-middle"></i>
             </div>
             <Assets display='d-lg-none' border='border-bottom' col='col-6' />
