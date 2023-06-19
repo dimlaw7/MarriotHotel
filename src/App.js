@@ -1,24 +1,19 @@
-//import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Hero from './components/Hero';
-import About from './components/About';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './pages/Home'
+import Navbar from "./components/Navbar";
+import Booking from "./pages/Booking";
 import './App.css';
-import { Services } from './components/Services';
-import Rooms from './components/Rooms';
-import Pictures from './components/Pictures';
-import Reviews from './components/Reviews';
-import Footer from './components/Footer';
 
 function App() {
   return (
-    <>
-      <Hero />
-      <About />
-      <Services />
-      <Rooms />
-      <Pictures />
-      <Reviews />
-      <Footer />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Navbar />}>
+          <Route index element={<Home />} />
+          <Route path="booking" element={<Booking />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

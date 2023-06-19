@@ -53,11 +53,11 @@ ul.navbar-custom li{
 
 .nav-toggle {
   background: rgba(15,23,28,0.85);
-  position: fixed;
+  position: fixed !important;
   top: 0;
   right: 0;
   left: 0;
-  z-index: 999;
+  z-index: 99;
 }
 
 .bkn {
